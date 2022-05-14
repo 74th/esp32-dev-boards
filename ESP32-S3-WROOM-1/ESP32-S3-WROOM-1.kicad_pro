@@ -382,8 +382,7 @@
         "name": "Power",
         "nets": [
           "+3V3",
-          "+5V",
-          "VBUS"
+          "+5V"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
