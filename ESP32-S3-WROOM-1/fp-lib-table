@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "esp32-dev-boards")(type "KiCad")(uri "/home/nnyn/ghq/github.com/74th/esp32-dev-boards/esp32-dev-boards.pretty")(options "")(descr ""))
+)
