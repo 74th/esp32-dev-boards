@@ -389,7 +389,7 @@
       (net 2 "GND") (pinfunction "GND") (pintype "power_in") (tstamp ebceb152-beb1-4a93-b823-6b1f2062fb34))
     (pad "36" smd rect (at -4 -4.9) (size 0.4 0.8) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 2 "GND") (pinfunction "GND") (pintype "power_in") (tstamp f4a863b7-cc1a-4e12-abae-ccca056cefee))
-    (model "${ESPRESSIF_3DMODELS}/ESP32-C3-MINI-1.STEP"
+    (model "/home/nnyn/ghq/github.com/espressif/kicad-libraries/3d/ESP32-C3-MINI-1.STEP"
       (offset (xyz -6.6 -5.67 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
