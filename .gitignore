@@ -21,6 +21,6 @@ fp-info-cache
 *-rescue.dcm
 *.dsn
 *.ses
-pcb/out
-pcb/order
+out
+order
 *-backups
