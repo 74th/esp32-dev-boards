@@ -342,9 +342,7 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [
-      "esp32-dev-boards"
-    ],
+    "pinned_footprint_libs": [],
     "pinned_symbol_libs": []
   },
   "meta": {
@@ -382,7 +380,8 @@
         "name": "Power",
         "nets": [
           "+3V3",
-          "+5V"
+          "+5V",
+          "GND"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",

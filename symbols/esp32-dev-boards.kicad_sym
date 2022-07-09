@@ -40,7 +40,7 @@
         (number "12" (effects (font (size 1.27 1.27))))
       )
       (pin output line (at 10.16 -2.54 180) (length 2.54)
-        (name "DTS" (effects (font (size 1.27 1.27))))
+        (name "DTR" (effects (font (size 1.27 1.27))))
         (number "13" (effects (font (size 1.27 1.27))))
       )
       (pin output line (at 10.16 0 180) (length 2.54)
