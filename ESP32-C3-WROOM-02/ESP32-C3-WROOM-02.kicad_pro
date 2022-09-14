@@ -343,7 +343,8 @@
   },
   "libraries": {
     "pinned_footprint_libs": [
-      "esp32-dev-board"
+      "esp32-dev-board",
+      "Espressif"
     ],
     "pinned_symbol_libs": []
   },

@@ -710,7 +710,7 @@
     (property "Value" "ESPProg-UART" (id 1) (at 0 2.54 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (id 2) (at 0 0 0)
+    (property "Footprint" "esp32-dev-boards:BoxPinHeader_2x03_P1.27mm_Vertical" (id 2) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 0 0 0)
