@@ -9,6 +9,10 @@
 - [ESP32-C3-DevBoard](ESP32-C3-WROOM-02): ESP32-C3-WROOM-02 用の開発ボード
 - [ESP32-C3-DevBoardM](ESP32-C3-MINI-1): ESP32-C3-MINI-1 用の開発ボード
 
+## 利用している外部リソース
+
+- https://github.com/espressif/kicad-libraries
+
 ## License
 
 MIT License
