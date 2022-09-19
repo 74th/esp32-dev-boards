@@ -45,6 +45,8 @@ https://docs.espressif.com/projects/esp-idf/en/v4.4.2/esp32s3/hw-reference/esp32
 
 - D4 には、USB からの電源供給の場合、レジスタ 0R をセットします。booth で販売のセットには 0805 レジスタ 0R を付属しています。
 
+[部品の調達先はこちらを確認下さい ../parts.md](../parts.md)
+
 ### ドキュメント
 
 - [Semantics ESP32-S3-WROOM-1-v1.1.1-semantics.pdf](ESP32-S3-WROOM-1-v1.1.1-semantics.pdf)

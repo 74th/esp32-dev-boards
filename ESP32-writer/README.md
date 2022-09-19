@@ -36,6 +36,8 @@ ESP32 Writer として使える USB シリアル変換です。
 
 - ダイオードの電圧低下が大きい場合、ダイオードの代わりに 0R レジスタを入れることもできます（製作者はそれで使っています）
 
+[部品の調達先はこちらを確認下さい ../parts.md](../parts.md)
+
 ### ドキュメント
 
 - [Semantics ESP32-writer-2.0.1-semantics.pdf](ESP32-writer-2.0.1-semantics.pdf)
