@@ -1,6 +1,6 @@
 # ESP32 を使った開発ボード
 
-![](ESP32-S3-WROOM-1/ESP32-S3-WROOM-1.png)
+![](ESP32-S3-WROOM-1/ESP32-S3-dev-board-v1.1.1.jpg)
 
 公式のボードとピンアサインは互換
 
