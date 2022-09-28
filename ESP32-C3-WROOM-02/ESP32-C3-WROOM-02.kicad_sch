@@ -4,6 +4,11 @@
 
   (paper "A4")
 
+  (title_block
+    (title "ESP32C3DevBoard")
+    (rev "v1.1.0")
+  )
+
   (lib_symbols
     (symbol "Device:C" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (id 0) (at 0.635 2.54 0)
@@ -904,6 +909,9 @@
   (junction (at 125.73 81.28) (diameter 0) (color 0 0 0 0)
     (uuid 121b4e25-b69d-4b5d-87e2-1857f2f1b80e)
   )
+  (junction (at 29.21 153.67) (diameter 0) (color 0 0 0 0)
+    (uuid 1a1bab2c-0af2-43a0-87f6-a3619a1616ea)
+  )
   (junction (at 147.32 81.28) (diameter 0) (color 0 0 0 0)
     (uuid 23ac792c-6e2a-4ae6-b8dd-8ddeb8911477)
   )
@@ -1005,6 +1013,10 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 1b906b06-67ec-4583-8ffd-ef30d39de4e9)
   )
+  (wire (pts (xy 29.21 153.67) (xy 60.96 153.67))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 1c3eea74-2312-4267-8deb-ccba40c585d6)
+  )
   (wire (pts (xy 81.28 81.28) (xy 81.28 85.09))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 24ce6ace-a94a-487a-a39a-a400046ca60a)
@@ -1024,6 +1036,10 @@
   (wire (pts (xy 115.57 71.12) (xy 115.57 78.74))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 2ac5150e-3bd0-44ad-89bc-fb487fd94cc3)
+  )
+  (wire (pts (xy 25.4 153.67) (xy 29.21 153.67))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 2b710c32-5910-4fb5-8e24-08ea454479d9)
   )
   (wire (pts (xy 41.91 123.19) (xy 60.96 123.19))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -1322,10 +1338,10 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "GPIO8" (shape input) (at 60.96 153.67 180) (fields_autoplaced)
+  (global_label "GPIO8" (shape input) (at 25.4 153.67 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 7d4b39c2-b0cf-4ae0-8a6a-b3aa56fd29f9)
-    (property "シート間のリファレンス" "${INTERSHEET_REFS}" (id 0) (at 52.8621 153.7494 0)
+    (property "シート間のリファレンス" "${INTERSHEET_REFS}" (id 0) (at 17.3021 153.7494 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
@@ -1832,6 +1848,25 @@
     (pin "6" (uuid e27c4e5d-4818-4457-9e5d-78783c83fe2b))
   )
 
+  (symbol (lib_id "Device:R") (at 29.21 149.86 0) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (uuid 7c15e983-d86d-4112-8b09-d22a0e2aa9db)
+    (property "Reference" "R5" (id 0) (at 31.75 148.5899 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "10k" (id 1) (at 31.75 151.1299 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "esp32-dev-board:Register_0805_2012" (id 2) (at 27.432 149.86 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 29.21 149.86 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid bd03a794-c35b-42b3-a331-b23630dee108))
+    (pin "2" (uuid 79a4d627-c9cc-4d76-8b31-68992e42badf))
+  )
+
   (symbol (lib_id "Device:C") (at 135.89 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 7f246871-c03d-457e-b71d-eba83974b239)
@@ -2205,6 +2240,22 @@
     (pin "1" (uuid 347dd325-720e-4512-9289-d342a031d62d))
   )
 
+  (symbol (lib_id "power:+3V3") (at 29.21 146.05 0) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (uuid fc65146f-31de-4f3b-a678-0e5eb0846754)
+    (property "Reference" "#PWR021" (id 0) (at 29.21 149.86 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3V3" (id 1) (at 29.21 140.97 0))
+    (property "Footprint" "" (id 2) (at 29.21 146.05 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 29.21 146.05 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 1d1d1180-d14e-439a-993b-59283a64ff30))
+  )
+
   (sheet_instances
     (path "/" (page "1"))
   )
@@ -2270,6 +2321,9 @@
     (path "/30459833-1a0c-4403-91fe-f164ae889790"
       (reference "#PWR020") (unit 1) (value "GND") (footprint "")
     )
+    (path "/fc65146f-31de-4f3b-a678-0e5eb0846754"
+      (reference "#PWR021") (unit 1) (value "+3V3") (footprint "")
+    )
     (path "/7f246871-c03d-457e-b71d-eba83974b239"
       (reference "C1") (unit 1) (value "10u") (footprint "esp32-dev-board:Capacitor_0805_2012")
     )
@@ -2317,6 +2371,9 @@
     )
     (path "/28269373-36c7-459f-9a2d-98533bf54cd3"
       (reference "R4") (unit 1) (value "5.1k") (footprint "esp32-dev-board:Register_0805_2012")
+    )
+    (path "/7c15e983-d86d-4112-8b09-d22a0e2aa9db"
+      (reference "R5") (unit 1) (value "10k") (footprint "esp32-dev-board:Register_0805_2012")
     )
     (path "/c41cfd04-4f71-4efe-908b-937fb32ea98e"
       (reference "SW1") (unit 1) (value "SW_Push") (footprint "esp32-dev-board:SKRPABE010")
