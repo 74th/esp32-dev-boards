@@ -5,6 +5,11 @@
   )
 
   (paper "A4")
+  (title_block
+    (title "ESP32C3DevBoard")
+    (rev "v1.1.0")
+  )
+
   (layers
     (0 "F.Cu" signal)
     (31 "B.Cu" signal)
