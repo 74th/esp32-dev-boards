@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name "esp32-dev-boards")(type "KiCad")(uri "${KIPRJMOD}/../symbols/esp32-dev-boards.kicad_sym")(options "")(descr ""))
+  (lib (name "Espressif")(type "KiCad")(uri "/home/nnyn/ghq/github.com/espressif/kicad-libraries/libraries/Espressif.kicad_sym")(options "")(descr ""))
+  (lib (name "esp32-dev-board")(type "KiCad")(uri "/home/nnyn/ghq/github.com/74th/esp32-dev-boards/ESP32-writer/esp32-dev-boards.kicad_sym")(options "")(descr ""))
+)
