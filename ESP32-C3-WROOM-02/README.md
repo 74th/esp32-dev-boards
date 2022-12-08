@@ -25,3 +25,8 @@ ESP32-C3-WROOM-02 を使った開発ボード
 | U1       | SOT-223-3_TabPin2         | 1    | AMS1117-3.3       |
 | U2       | ESP32-C3-WROOM-02         | 1    | ESP32-C3-WROOM-02 |
 | SW1,SW2  | SKRPABE010                | 2    | SW_Push           |
+
+## ドキュメント
+
+- [回路図 ./esp32c3devboard-1.1.0-semantics.pdf](esp32c3devboard-1.1.0-semantics.pdf)
+- [PCB ./esp32c3devboard-1.1.0-pcb.pdf](esp32c3devboard-1.1.0-pcb.pdf)
