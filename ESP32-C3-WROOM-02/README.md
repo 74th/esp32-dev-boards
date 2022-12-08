@@ -2,7 +2,7 @@
 
 ESP32-C3-WROOM-02 を使った開発ボード
 
-![photo](./esp32c3wroom02-board.jpg)
+<img src="./esp32c3wroom02-board.jpg" width="300px">
 
 - ピンヘッダは ESP-C3-DevKitC-02 互換の配置
 - 10 ピンブレッドボードに挿しても、左右 1 ピン空いている
