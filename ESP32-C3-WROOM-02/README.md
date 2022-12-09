@@ -11,6 +11,9 @@ ESP32-C3-WROOM-02 を使った開発ボード
 - ESP-Prog の USB シリアル変換のボックスピンヘッダを持つ
 - USB Type-C をもつ
 
+BOOTH でモジュール付きキットを販売中です。<br/>
+https://74th.booth.pm/items/4378573
+
 ## v1.1.0
 
 ### 部品表
