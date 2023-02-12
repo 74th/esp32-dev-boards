@@ -16,7 +16,7 @@ ESP32 Writer として使える USB シリアル変換です。
 
 - EN、BOOT を操作する必要がないようにしたいから。
 
-## v2.0.1
+## v2.0.1 ~ 2.0.2
 
 ### 部品表
 
@@ -40,5 +40,16 @@ ESP32 Writer として使える USB シリアル変換です。
 
 ### ドキュメント
 
-- [Semantics ESP32-writer-2.0.1-semantics.pdf](ESP32-writer-2.0.1-semantics.pdf)
-- [PCB ESP32-writer-2.0.1-pcb.pdf](ESP32-writer-2.0.1-pcb.pdf)
+- [Semantics v2.0.1 = 2.0.2](ESP32-writer-2.0.1-semantics.pdf)
+- [PCB v2.0.1](ESP32-writer-2.0.1-pcb.pdf)
+
+## 変更履歴
+
+- v2.1.0
+  - CH340G に変更（ESP-Writer-CH340G として、別プロダクトへ変更）
+- v2.0.2
+  - USB Type-C ソケットのフットプリントを実装しやすいものに変更
+- v2.0.1
+  - 配線ミスを修正
+- v2.0.0
+  - ESP-Prog 互換 Box Pin Header を追加
