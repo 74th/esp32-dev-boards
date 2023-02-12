@@ -1749,7 +1749,7 @@
     (pin "1" (uuid 11f0a7d0-1c66-4667-b2c7-fbcd3ebce29f))
     (pin "2" (uuid f1f0f51a-6888-4b50-b08b-295f3cfc9f45))
     (instances
-      (project "ESP32-writer"
+      (project "ESP32-Writer-CH340G"
         (path "/7a6a2881-36a3-49f9-9509-bb2f48ffa349"
           (reference "R1") (unit 1)
         )
@@ -1775,7 +1775,7 @@
     (pin "1" (uuid 1a1f6c96-78fd-4ad5-8141-1c2dbbdacaf4))
     (pin "2" (uuid 3d38b7cc-efe1-459f-9397-c1e3012d9b11))
     (instances
-      (project "ESP32-writer"
+      (project "ESP32-Writer-CH340G"
         (path "/7a6a2881-36a3-49f9-9509-bb2f48ffa349"
           (reference "C7") (unit 1)
         )
@@ -1800,7 +1800,7 @@
     )
     (pin "1" (uuid 766dd5fc-e479-4478-b5a0-a1daa1c52648))
     (instances
-      (project "ESP32-writer"
+      (project "ESP32-Writer-CH340G"
         (path "/7a6a2881-36a3-49f9-9509-bb2f48ffa349"
           (reference "#PWR0103") (unit 1)
         )
@@ -1825,7 +1825,7 @@
     )
     (pin "1" (uuid 3c6de61f-83f5-40f3-9a1b-2dec6a1feeaf))
     (instances
-      (project "ESP32-writer"
+      (project "ESP32-Writer-CH340G"
         (path "/7a6a2881-36a3-49f9-9509-bb2f48ffa349"
           (reference "#PWR0106") (unit 1)
         )
@@ -1851,7 +1851,7 @@
     (pin "1" (uuid 675fbf31-2307-4b8a-b5c8-76bd0c54867c))
     (pin "2" (uuid 50539634-caab-4764-bab4-b1f1429b1690))
     (instances
-      (project "ESP32-writer"
+      (project "ESP32-Writer-CH340G"
         (path "/7a6a2881-36a3-49f9-9509-bb2f48ffa349"
           (reference "D2") (unit 1)
         )
@@ -1876,7 +1876,7 @@
     )
     (pin "1" (uuid 2753dcc9-9492-4c39-b003-1643aa948509))
     (instances
-      (project "ESP32-writer"
+      (project "ESP32-Writer-CH340G"
         (path "/7a6a2881-36a3-49f9-9509-bb2f48ffa349"
           (reference "#PWR0109") (unit 1)
         )
@@ -1902,7 +1902,7 @@
     (pin "1" (uuid 0bc9b4ed-b8d9-4aa3-9a74-fb33ecc4a8d5))
     (pin "2" (uuid e48030b9-56e7-42c2-b6b3-f3e872889517))
     (instances
-      (project "ESP32-writer"
+      (project "ESP32-Writer-CH340G"
         (path "/7a6a2881-36a3-49f9-9509-bb2f48ffa349"
           (reference "C6") (unit 1)
         )
@@ -1927,7 +1927,7 @@
     )
     (pin "1" (uuid 8aa21ada-d626-4833-a042-f03c88986cf7))
     (instances
-      (project "ESP32-writer"
+      (project "ESP32-Writer-CH340G"
         (path "/7a6a2881-36a3-49f9-9509-bb2f48ffa349"
           (reference "#PWR0114") (unit 1)
         )
@@ -1952,7 +1952,7 @@
     )
     (pin "1" (uuid 5fddaec2-4471-4bf3-b62c-a03d4af545bb))
     (instances
-      (project "ESP32-writer"
+      (project "ESP32-Writer-CH340G"
         (path "/7a6a2881-36a3-49f9-9509-bb2f48ffa349"
           (reference "#PWR0105") (unit 1)
         )
@@ -1982,7 +1982,7 @@
     (pin "5" (uuid b69ac7cf-348a-4428-8bab-ab2c1e53ff1c))
     (pin "6" (uuid e955bcc4-6621-482e-a20f-ec2332261d4a))
     (instances
-      (project "ESP32-writer"
+      (project "ESP32-Writer-CH340G"
         (path "/7a6a2881-36a3-49f9-9509-bb2f48ffa349"
           (reference "J3") (unit 1)
         )
@@ -2008,7 +2008,7 @@
     (pin "1" (uuid f1140318-80a9-41cb-a24e-1a69b7949f97))
     (pin "2" (uuid a7ffc0e7-8a54-4d9f-af56-a6bf36280ba2))
     (instances
-      (project "ESP32-writer"
+      (project "ESP32-Writer-CH340G"
         (path "/7a6a2881-36a3-49f9-9509-bb2f48ffa349"
           (reference "R4") (unit 1)
         )
@@ -2039,7 +2039,7 @@
     (pin "6" (uuid cd1a3356-e5f3-441d-9e48-989c9ccdbf63))
     (pin "7" (uuid 713b4c43-c239-4323-a5df-4fde1c0dc069))
     (instances
-      (project "ESP32-writer"
+      (project "ESP32-Writer-CH340G"
         (path "/7a6a2881-36a3-49f9-9509-bb2f48ffa349"
           (reference "J4") (unit 1)
         )
@@ -2065,7 +2065,7 @@
     (pin "1" (uuid 5bbef84a-9797-4aaa-af51-e9f5f8bde681))
     (pin "2" (uuid f327c071-d77d-4d31-863a-837f7209309c))
     (instances
-      (project "ESP32-writer"
+      (project "ESP32-Writer-CH340G"
         (path "/7a6a2881-36a3-49f9-9509-bb2f48ffa349"
           (reference "D1") (unit 1)
         )
@@ -2093,7 +2093,7 @@
     (pin "3" (uuid b71aeb6a-2ee6-43b6-b003-2091ab39d52f))
     (pin "4" (uuid 2cff1694-c1eb-48ac-8b79-7f798de52158))
     (instances
-      (project "ESP32-writer"
+      (project "ESP32-Writer-CH340G"
         (path "/7a6a2881-36a3-49f9-9509-bb2f48ffa349"
           (reference "Y1") (unit 1)
         )
@@ -2119,7 +2119,7 @@
     (pin "1" (uuid 3a05cb50-fb91-4565-9dc8-cca2ec3f8386))
     (pin "2" (uuid a6f6558b-4e6f-488b-a3aa-5eb0cb206970))
     (instances
-      (project "ESP32-writer"
+      (project "ESP32-Writer-CH340G"
         (path "/7a6a2881-36a3-49f9-9509-bb2f48ffa349"
           (reference "C1") (unit 1)
         )
@@ -2149,7 +2149,7 @@
     (pin "5" (uuid cbb5ab9d-2c92-4425-b8e6-77249f830dfe))
     (pin "6" (uuid 592ba5c6-defb-4bf7-8765-82aeb0d7f3e1))
     (instances
-      (project "ESP32-writer"
+      (project "ESP32-Writer-CH340G"
         (path "/7a6a2881-36a3-49f9-9509-bb2f48ffa349"
           (reference "J2") (unit 1)
         )
@@ -2174,7 +2174,7 @@
     )
     (pin "1" (uuid 15be8586-2155-4cb7-967f-8532d1d81380))
     (instances
-      (project "ESP32-writer"
+      (project "ESP32-Writer-CH340G"
         (path "/7a6a2881-36a3-49f9-9509-bb2f48ffa349"
           (reference "#PWR0120") (unit 1)
         )
@@ -2200,7 +2200,7 @@
     (pin "1" (uuid e1ca8ad2-9b61-4037-8190-39d53fdbb171))
     (pin "2" (uuid 730773f3-d27d-4265-8485-1e68ae5d8c78))
     (instances
-      (project "ESP32-writer"
+      (project "ESP32-Writer-CH340G"
         (path "/7a6a2881-36a3-49f9-9509-bb2f48ffa349"
           (reference "C3") (unit 1)
         )
@@ -2225,7 +2225,7 @@
     )
     (pin "1" (uuid 2ce5b3b9-1760-4b47-b593-8a2551261a72))
     (instances
-      (project "ESP32-writer"
+      (project "ESP32-Writer-CH340G"
         (path "/7a6a2881-36a3-49f9-9509-bb2f48ffa349"
           (reference "#PWR0121") (unit 1)
         )
@@ -2250,7 +2250,7 @@
     )
     (pin "1" (uuid 7f007423-00f4-4d90-9b2f-78fca77255d3))
     (instances
-      (project "ESP32-writer"
+      (project "ESP32-Writer-CH340G"
         (path "/7a6a2881-36a3-49f9-9509-bb2f48ffa349"
           (reference "#PWR0119") (unit 1)
         )
@@ -2275,7 +2275,7 @@
     )
     (pin "1" (uuid a43241e8-f855-4ea5-9765-d571d8ff763b))
     (instances
-      (project "ESP32-writer"
+      (project "ESP32-Writer-CH340G"
         (path "/7a6a2881-36a3-49f9-9509-bb2f48ffa349"
           (reference "#PWR0112") (unit 1)
         )
@@ -2300,7 +2300,7 @@
     )
     (pin "1" (uuid 0d174cf8-abbb-4f8f-9c38-ae3c219308fe))
     (instances
-      (project "ESP32-writer"
+      (project "ESP32-Writer-CH340G"
         (path "/7a6a2881-36a3-49f9-9509-bb2f48ffa349"
           (reference "#PWR0101") (unit 1)
         )
@@ -2326,7 +2326,7 @@
     (pin "1" (uuid 3ff89273-c6b9-41cb-95ac-461ed2aa85cc))
     (pin "2" (uuid 90121398-c684-4a6d-b13e-ef9aacc96359))
     (instances
-      (project "ESP32-writer"
+      (project "ESP32-Writer-CH340G"
         (path "/7a6a2881-36a3-49f9-9509-bb2f48ffa349"
           (reference "C4") (unit 1)
         )
@@ -2352,7 +2352,7 @@
     (pin "1" (uuid bc3e05b5-3069-4ce0-a7bf-1f37cb3e915d))
     (pin "2" (uuid 29ddd63b-bfb0-48b5-9071-618091bbfa2d))
     (instances
-      (project "ESP32-writer"
+      (project "ESP32-Writer-CH340G"
         (path "/7a6a2881-36a3-49f9-9509-bb2f48ffa349"
           (reference "R3") (unit 1)
         )
@@ -2378,7 +2378,7 @@
     (pin "1" (uuid e1f158ec-db1c-4312-b145-f08e94d2ba13))
     (pin "2" (uuid 15ffa688-9284-4150-a892-55eb33c22166))
     (instances
-      (project "ESP32-writer"
+      (project "ESP32-Writer-CH340G"
         (path "/7a6a2881-36a3-49f9-9509-bb2f48ffa349"
           (reference "JP2") (unit 1)
         )
@@ -2403,7 +2403,7 @@
     )
     (pin "1" (uuid 970bdcbb-78ca-4599-b513-dd235295fd26))
     (instances
-      (project "ESP32-writer"
+      (project "ESP32-Writer-CH340G"
         (path "/7a6a2881-36a3-49f9-9509-bb2f48ffa349"
           (reference "#PWR0118") (unit 1)
         )
@@ -2428,7 +2428,7 @@
     )
     (pin "1" (uuid 41044140-23b8-468e-9770-419bf3ff9c68))
     (instances
-      (project "ESP32-writer"
+      (project "ESP32-Writer-CH340G"
         (path "/7a6a2881-36a3-49f9-9509-bb2f48ffa349"
           (reference "#PWR0115") (unit 1)
         )
@@ -2454,7 +2454,7 @@
     (pin "1" (uuid 6dc7e89d-5229-403b-9127-ac9aab0746ef))
     (pin "2" (uuid da214c03-58fd-4783-a42d-9215cdf22a50))
     (instances
-      (project "ESP32-writer"
+      (project "ESP32-Writer-CH340G"
         (path "/7a6a2881-36a3-49f9-9509-bb2f48ffa349"
           (reference "C5") (unit 1)
         )
@@ -2479,7 +2479,7 @@
     )
     (pin "1" (uuid 5d2ef154-67e2-433c-83f5-6bd5333a6683))
     (instances
-      (project "ESP32-writer"
+      (project "ESP32-Writer-CH340G"
         (path "/7a6a2881-36a3-49f9-9509-bb2f48ffa349"
           (reference "#PWR0123") (unit 1)
         )
@@ -2506,7 +2506,7 @@
     (pin "2" (uuid eed55043-4ce0-4c16-9942-f9d8d841ffce))
     (pin "3" (uuid 590357a9-4ab0-4be5-8224-d1f96918283b))
     (instances
-      (project "ESP32-writer"
+      (project "ESP32-Writer-CH340G"
         (path "/7a6a2881-36a3-49f9-9509-bb2f48ffa349"
           (reference "U1") (unit 1)
         )
@@ -2531,7 +2531,7 @@
     )
     (pin "1" (uuid 4350ad47-c95b-448e-ba15-a27bf7b103de))
     (instances
-      (project "ESP32-writer"
+      (project "ESP32-Writer-CH340G"
         (path "/7a6a2881-36a3-49f9-9509-bb2f48ffa349"
           (reference "#PWR0113") (unit 1)
         )
@@ -2556,7 +2556,7 @@
     )
     (pin "1" (uuid a388544e-ce30-4077-9427-38930438a283))
     (instances
-      (project "ESP32-writer"
+      (project "ESP32-Writer-CH340G"
         (path "/7a6a2881-36a3-49f9-9509-bb2f48ffa349"
           (reference "#PWR0116") (unit 1)
         )
@@ -2583,7 +2583,7 @@
     (pin "2" (uuid 9c7cc696-ea7c-41db-a239-c666c2442c82))
     (pin "3" (uuid 57b31b0d-46bc-4594-9998-d55b250d7691))
     (instances
-      (project "ESP32-writer"
+      (project "ESP32-Writer-CH340G"
         (path "/7a6a2881-36a3-49f9-9509-bb2f48ffa349"
           (reference "Q1") (unit 1)
         )
@@ -2608,7 +2608,7 @@
     )
     (pin "1" (uuid c2887392-1f16-4609-8366-95589010941a))
     (instances
-      (project "ESP32-writer"
+      (project "ESP32-Writer-CH340G"
         (path "/7a6a2881-36a3-49f9-9509-bb2f48ffa349"
           (reference "#FLG01") (unit 1)
         )
@@ -2633,7 +2633,7 @@
     )
     (pin "1" (uuid 822d0e9e-ee24-4e97-82e0-7e4f0e8dccfa))
     (instances
-      (project "ESP32-writer"
+      (project "ESP32-Writer-CH340G"
         (path "/7a6a2881-36a3-49f9-9509-bb2f48ffa349"
           (reference "#PWR0104") (unit 1)
         )
@@ -2658,7 +2658,7 @@
     )
     (pin "1" (uuid cb32a751-659c-4d5d-a3be-bc14e135f570))
     (instances
-      (project "ESP32-writer"
+      (project "ESP32-Writer-CH340G"
         (path "/7a6a2881-36a3-49f9-9509-bb2f48ffa349"
           (reference "#PWR0122") (unit 1)
         )
@@ -2685,7 +2685,7 @@
     (pin "2" (uuid e409a22a-99b2-454d-90de-82a152a25924))
     (pin "3" (uuid 13b2166d-700c-441e-87a3-69d129ee89e8))
     (instances
-      (project "ESP32-writer"
+      (project "ESP32-Writer-CH340G"
         (path "/7a6a2881-36a3-49f9-9509-bb2f48ffa349"
           (reference "JP1") (unit 1)
         )
@@ -2711,7 +2711,7 @@
     (pin "1" (uuid 41eaf165-4563-47ab-b61e-1075a4037343))
     (pin "2" (uuid 9fcbbe54-7762-44bd-a111-836c762624c9))
     (instances
-      (project "ESP32-writer"
+      (project "ESP32-Writer-CH340G"
         (path "/7a6a2881-36a3-49f9-9509-bb2f48ffa349"
           (reference "F2") (unit 1)
         )
@@ -2737,7 +2737,7 @@
     (pin "1" (uuid c042dd04-d50a-4250-b394-1ffa78d4642e))
     (pin "2" (uuid 32b83f11-95a3-46e7-b465-fab800c2aa84))
     (instances
-      (project "ESP32-writer"
+      (project "ESP32-Writer-CH340G"
         (path "/7a6a2881-36a3-49f9-9509-bb2f48ffa349"
           (reference "R2") (unit 1)
         )
@@ -2767,7 +2767,7 @@
     (pin "5" (uuid 7f33ee86-6605-4f9a-88a8-347a36fe3124))
     (pin "6" (uuid c7308e90-ae37-42d8-a748-22a8e1b2045d))
     (instances
-      (project "ESP32-writer"
+      (project "ESP32-Writer-CH340G"
         (path "/7a6a2881-36a3-49f9-9509-bb2f48ffa349"
           (reference "J1") (unit 1)
         )
@@ -2807,7 +2807,7 @@
     (pin "8" (uuid 3de5902c-2d46-4f98-aa6e-b0e3cef8a625))
     (pin "9" (uuid 2be4873a-0db5-4fd2-a5d7-96f1befe931d))
     (instances
-      (project "ESP32-writer"
+      (project "ESP32-Writer-CH340G"
         (path "/7a6a2881-36a3-49f9-9509-bb2f48ffa349"
           (reference "U2") (unit 1)
         )
@@ -2833,7 +2833,7 @@
     (pin "1" (uuid aff57249-5a61-428a-a9dd-1e2174c829bb))
     (pin "2" (uuid 413e2c4a-61fa-47f8-94c1-76239d8a46ce))
     (instances
-      (project "ESP32-writer"
+      (project "ESP32-Writer-CH340G"
         (path "/7a6a2881-36a3-49f9-9509-bb2f48ffa349"
           (reference "F1") (unit 1)
         )
@@ -2858,7 +2858,7 @@
     )
     (pin "1" (uuid 21780b70-cad5-4f0f-8838-694cdd59fdcd))
     (instances
-      (project "ESP32-writer"
+      (project "ESP32-Writer-CH340G"
         (path "/7a6a2881-36a3-49f9-9509-bb2f48ffa349"
           (reference "#PWR0107") (unit 1)
         )
@@ -2883,7 +2883,7 @@
     )
     (pin "1" (uuid 180b12d3-76b7-4399-9e47-0e9e4c82512d))
     (instances
-      (project "ESP32-writer"
+      (project "ESP32-Writer-CH340G"
         (path "/7a6a2881-36a3-49f9-9509-bb2f48ffa349"
           (reference "#PWR0117") (unit 1)
         )
@@ -2908,7 +2908,7 @@
     )
     (pin "1" (uuid 9deccf9d-c52e-4767-b5f8-93208e7e052f))
     (instances
-      (project "ESP32-writer"
+      (project "ESP32-Writer-CH340G"
         (path "/7a6a2881-36a3-49f9-9509-bb2f48ffa349"
           (reference "#PWR0110") (unit 1)
         )
@@ -2934,7 +2934,7 @@
     (pin "1" (uuid 0a151fd6-27fb-4d07-8a67-1d74bea63aa8))
     (pin "2" (uuid 2b9eb235-2d8b-4794-a742-71789336970f))
     (instances
-      (project "ESP32-writer"
+      (project "ESP32-Writer-CH340G"
         (path "/7a6a2881-36a3-49f9-9509-bb2f48ffa349"
           (reference "C2") (unit 1)
         )
@@ -2959,7 +2959,7 @@
     )
     (pin "1" (uuid ef6c8703-c590-4e22-bcd0-e9f7a7c4bd2e))
     (instances
-      (project "ESP32-writer"
+      (project "ESP32-Writer-CH340G"
         (path "/7a6a2881-36a3-49f9-9509-bb2f48ffa349"
           (reference "#PWR0108") (unit 1)
         )
@@ -2986,7 +2986,7 @@
     (pin "2" (uuid b3bf1722-4f27-4996-9e50-da4201987922))
     (pin "3" (uuid 46cbfe84-13e1-4ec5-b086-d95e9238df95))
     (instances
-      (project "ESP32-writer"
+      (project "ESP32-Writer-CH340G"
         (path "/7a6a2881-36a3-49f9-9509-bb2f48ffa349"
           (reference "Q2") (unit 1)
         )
@@ -3012,7 +3012,7 @@
     (pin "1" (uuid 3ed31871-f6cc-41cc-b955-d3202050d432))
     (pin "2" (uuid 87fdc16b-2750-4416-94cb-25a22a05767c))
     (instances
-      (project "ESP32-writer"
+      (project "ESP32-Writer-CH340G"
         (path "/7a6a2881-36a3-49f9-9509-bb2f48ffa349"
           (reference "R5") (unit 1)
         )
@@ -3037,7 +3037,7 @@
     )
     (pin "1" (uuid 9bb7f075-fce8-47f4-b62d-b9917f61c29c))
     (instances
-      (project "ESP32-writer"
+      (project "ESP32-Writer-CH340G"
         (path "/7a6a2881-36a3-49f9-9509-bb2f48ffa349"
           (reference "#PWR0102") (unit 1)
         )
@@ -3062,7 +3062,7 @@
     )
     (pin "1" (uuid a29a7a77-925f-4078-a730-716b864b640b))
     (instances
-      (project "ESP32-writer"
+      (project "ESP32-Writer-CH340G"
         (path "/7a6a2881-36a3-49f9-9509-bb2f48ffa349"
           (reference "#PWR0111") (unit 1)
         )
@@ -3087,7 +3087,7 @@
     )
     (pin "1" (uuid f552e81b-d2a3-44f7-b843-1e7db57d4107))
     (instances
-      (project "ESP32-writer"
+      (project "ESP32-Writer-CH340G"
         (path "/7a6a2881-36a3-49f9-9509-bb2f48ffa349"
           (reference "#PWR0124") (unit 1)
         )

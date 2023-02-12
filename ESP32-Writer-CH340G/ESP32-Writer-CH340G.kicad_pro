@@ -420,7 +420,7 @@
     ]
   },
   "meta": {
-    "filename": "ESP32-writer.kicad_pro",
+    "filename": "ESP32-Writer-CH340G.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -522,7 +522,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "specctra_dsn": "../../../../../Desktop/ESP32-writer.dsn",
+      "specctra_dsn": "../../../../../Desktop/ESP32-Writer-CH340G.dsn",
       "step": "",
       "vrml": ""
     },
