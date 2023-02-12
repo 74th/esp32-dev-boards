@@ -200,10 +200,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      "pin_to_pin|1993900|1003300|d73f151e-f62a-4d0d-a047-f821fbd8da6e|7cea3b53-94d8-422c-8a80-ac296cce13b7",
-      "pin_to_pin|495300|1181100|d4cdb28c-2359-483f-b961-1d567994535b|f064e0e9-2540-4699-b285-36d020746929"
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -567,7 +564,9 @@
     "page_layout_descr_file": "",
     "plot_directory": "",
     "spice_adjust_passive_values": false,
+    "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
+    "spice_model_current_sheet_as_root": true,
     "spice_save_all_currents": false,
     "spice_save_all_voltages": false,
     "subpart_first_id": 65,

@@ -1734,7 +1734,7 @@
   (symbol (lib_id "Device:R") (at 234.95 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00a3b244-9801-4b32-ab99-d2d49672aae8)
-    (property "Reference" "R5" (at 237.49 71.1199 0)
+    (property "Reference" "R1" (at 237.49 71.1199 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "200" (at 237.49 73.6599 0)
@@ -1751,7 +1751,7 @@
     (instances
       (project "ESP32-writer"
         (path "/7a6a2881-36a3-49f9-9509-bb2f48ffa349"
-          (reference "R5") (unit 1)
+          (reference "R1") (unit 1)
         )
       )
     )
@@ -1760,7 +1760,7 @@
   (symbol (lib_id "Device:C") (at 114.3 134.62 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 02a768c7-4c3f-4b55-962e-ef147fe5ec70)
-    (property "Reference" "C4" (at 118.11 133.3499 0)
+    (property "Reference" "C7" (at 118.11 133.3499 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 118.11 135.8899 0)
@@ -1777,7 +1777,7 @@
     (instances
       (project "ESP32-writer"
         (path "/7a6a2881-36a3-49f9-9509-bb2f48ffa349"
-          (reference "C4") (unit 1)
+          (reference "C7") (unit 1)
         )
       )
     )
@@ -1887,7 +1887,7 @@
   (symbol (lib_id "Device:C") (at 113.03 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 067966b2-60df-4c78-a774-1518bfb0aadf)
-    (property "Reference" "C3" (at 116.84 59.6899 0)
+    (property "Reference" "C6" (at 116.84 59.6899 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1u" (at 116.84 62.2299 0)
@@ -1904,7 +1904,7 @@
     (instances
       (project "ESP32-writer"
         (path "/7a6a2881-36a3-49f9-9509-bb2f48ffa349"
-          (reference "C3") (unit 1)
+          (reference "C6") (unit 1)
         )
       )
     )
@@ -1963,7 +1963,7 @@
   (symbol (lib_id "$74th:ESP-Prog-ProgramCOM-SEND") (at 194.31 135.89 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0d1ac685-7de3-42ca-a8a5-080a18c08f27)
-    (property "Reference" "J4" (at 194.31 127 0)
+    (property "Reference" "J3" (at 194.31 127 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "ESP-Prog-ProgramCOM-SEND" (at 194.31 129.54 0)
@@ -1984,7 +1984,7 @@
     (instances
       (project "ESP32-writer"
         (path "/7a6a2881-36a3-49f9-9509-bb2f48ffa349"
-          (reference "J4") (unit 1)
+          (reference "J3") (unit 1)
         )
       )
     )
@@ -1993,7 +1993,7 @@
   (symbol (lib_id "Device:R") (at 52.07 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 14bc48bd-abf6-4c72-9ac6-db6f07e2ae01)
-    (property "Reference" "R1" (at 54.61 80.0099 0)
+    (property "Reference" "R4" (at 54.61 80.0099 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "5.1k" (at 54.61 82.5499 0)
@@ -2010,7 +2010,7 @@
     (instances
       (project "ESP32-writer"
         (path "/7a6a2881-36a3-49f9-9509-bb2f48ffa349"
-          (reference "R1") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -2019,7 +2019,7 @@
   (symbol (lib_id "esp32-dev-board:UART-OUTPUT-v2") (at 194.31 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1fa698a7-5655-4b4c-92da-18a188a5002f)
-    (property "Reference" "J3" (at 196.215 95.25 0)
+    (property "Reference" "J4" (at 196.215 95.25 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "UART-OUTPUT" (at 196.215 97.79 0)
@@ -2041,7 +2041,7 @@
     (instances
       (project "ESP32-writer"
         (path "/7a6a2881-36a3-49f9-9509-bb2f48ffa349"
-          (reference "J3") (unit 1)
+          (reference "J4") (unit 1)
         )
       )
     )
@@ -2185,7 +2185,7 @@
   (symbol (lib_id "Device:C") (at 165.1 90.17 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4492dbd3-cbf7-4298-a056-fe38861f85ce)
-    (property "Reference" "C7" (at 170.18 88.9 0)
+    (property "Reference" "C3" (at 170.18 88.9 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "22p" (at 168.91 91.44 0)
@@ -2202,7 +2202,7 @@
     (instances
       (project "ESP32-writer"
         (path "/7a6a2881-36a3-49f9-9509-bb2f48ffa349"
-          (reference "C7") (unit 1)
+          (reference "C3") (unit 1)
         )
       )
     )
@@ -2311,7 +2311,7 @@
   (symbol (lib_id "Device:C") (at 190.5 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 53c6406e-cc07-4cea-a0e2-58c1192150a2)
-    (property "Reference" "C8" (at 194.31 44.45 0)
+    (property "Reference" "C4" (at 194.31 44.45 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1u" (at 194.31 46.99 0)
@@ -2328,7 +2328,7 @@
     (instances
       (project "ESP32-writer"
         (path "/7a6a2881-36a3-49f9-9509-bb2f48ffa349"
-          (reference "C8") (unit 1)
+          (reference "C4") (unit 1)
         )
       )
     )
@@ -2337,7 +2337,7 @@
   (symbol (lib_id "Device:R") (at 63.5 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 53f8a6b6-905e-4893-b496-4e4a9f661c65)
-    (property "Reference" "R4" (at 66.04 128.2699 0)
+    (property "Reference" "R3" (at 66.04 128.2699 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "5.1k" (at 66.04 130.8099 0)
@@ -2354,7 +2354,7 @@
     (instances
       (project "ESP32-writer"
         (path "/7a6a2881-36a3-49f9-9509-bb2f48ffa349"
-          (reference "R4") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
     )
@@ -2363,7 +2363,7 @@
   (symbol (lib_id "Jumper:Jumper_2_Open") (at 165.1 60.96 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 68302df9-5b50-48e1-87c9-f70f8d53cc33)
-    (property "Reference" "JP3" (at 167.64 60.325 90)
+    (property "Reference" "JP2" (at 167.64 60.325 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Jumper_2_Open" (at 167.64 62.865 90)
@@ -2380,7 +2380,7 @@
     (instances
       (project "ESP32-writer"
         (path "/7a6a2881-36a3-49f9-9509-bb2f48ffa349"
-          (reference "JP3") (unit 1)
+          (reference "JP2") (unit 1)
         )
       )
     )
@@ -2439,7 +2439,7 @@
   (symbol (lib_id "Device:C") (at 149.86 88.9 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6e812ad7-95ac-42e9-8e60-289d70eda0d9)
-    (property "Reference" "C6" (at 144.78 87.63 0)
+    (property "Reference" "C5" (at 144.78 87.63 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "22p" (at 144.78 90.17 0)
@@ -2456,7 +2456,7 @@
     (instances
       (project "ESP32-writer"
         (path "/7a6a2881-36a3-49f9-9509-bb2f48ffa349"
-          (reference "C6") (unit 1)
+          (reference "C5") (unit 1)
         )
       )
     )
@@ -2567,7 +2567,7 @@
   (symbol (lib_id "Transistor_FET:2N7002") (at 140.97 142.24 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7e43c492-960a-43ff-be6f-de8cb1740526)
-    (property "Reference" "Q2" (at 147.32 140.9699 0)
+    (property "Reference" "Q1" (at 147.32 140.9699 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2N7002" (at 147.32 143.5099 0)
@@ -2585,7 +2585,7 @@
     (instances
       (project "ESP32-writer"
         (path "/7a6a2881-36a3-49f9-9509-bb2f48ffa349"
-          (reference "Q2") (unit 1)
+          (reference "Q1") (unit 1)
         )
       )
     )
@@ -2696,7 +2696,7 @@
   (symbol (lib_id "Device:Polyfuse") (at 55.88 105.41 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9fd34c8f-4959-48c7-905b-408c4b805012)
-    (property "Reference" "F1" (at 55.88 99.06 90)
+    (property "Reference" "F2" (at 55.88 99.06 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Polyfuse" (at 55.88 101.6 90)
@@ -2713,7 +2713,7 @@
     (instances
       (project "ESP32-writer"
         (path "/7a6a2881-36a3-49f9-9509-bb2f48ffa349"
-          (reference "F1") (unit 1)
+          (reference "F2") (unit 1)
         )
       )
     )
@@ -2818,7 +2818,7 @@
   (symbol (lib_id "Device:Polyfuse") (at 58.42 57.15 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b798cfa6-ffd9-4825-bedc-247ad07aa18e)
-    (property "Reference" "F2" (at 58.42 50.8 90)
+    (property "Reference" "F1" (at 58.42 50.8 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Polyfuse" (at 58.42 53.34 90)
@@ -2835,7 +2835,7 @@
     (instances
       (project "ESP32-writer"
         (path "/7a6a2881-36a3-49f9-9509-bb2f48ffa349"
-          (reference "F2") (unit 1)
+          (reference "F1") (unit 1)
         )
       )
     )
@@ -2919,7 +2919,7 @@
   (symbol (lib_id "Device:C") (at 223.52 54.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d25058a4-c7c2-439f-9c4d-37b6375b6244)
-    (property "Reference" "C5" (at 227.33 53.3399 0)
+    (property "Reference" "C2" (at 227.33 53.3399 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 227.33 55.8799 0)
@@ -2936,7 +2936,7 @@
     (instances
       (project "ESP32-writer"
         (path "/7a6a2881-36a3-49f9-9509-bb2f48ffa349"
-          (reference "C5") (unit 1)
+          (reference "C2") (unit 1)
         )
       )
     )
@@ -2970,7 +2970,7 @@
   (symbol (lib_id "Transistor_FET:2N7002") (at 140.97 125.73 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e49330e5-1291-42dc-b7a6-340349e985e1)
-    (property "Reference" "Q1" (at 147.32 124.4599 0)
+    (property "Reference" "Q2" (at 147.32 124.4599 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2N7002" (at 147.32 126.9999 0)
@@ -2988,7 +2988,7 @@
     (instances
       (project "ESP32-writer"
         (path "/7a6a2881-36a3-49f9-9509-bb2f48ffa349"
-          (reference "Q1") (unit 1)
+          (reference "Q2") (unit 1)
         )
       )
     )
@@ -2997,7 +2997,7 @@
   (symbol (lib_id "Device:R") (at 62.23 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e9727e40-352a-4e25-82f4-c6b19b6ad1c1)
-    (property "Reference" "R3" (at 64.77 80.0099 0)
+    (property "Reference" "R5" (at 64.77 80.0099 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "5.1k" (at 64.77 82.5499 0)
@@ -3014,7 +3014,7 @@
     (instances
       (project "ESP32-writer"
         (path "/7a6a2881-36a3-49f9-9509-bb2f48ffa349"
-          (reference "R3") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
