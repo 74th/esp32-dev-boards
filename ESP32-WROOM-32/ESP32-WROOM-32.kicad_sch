@@ -1578,7 +1578,7 @@
       )
       (project "ESP32-WROOM-32"
         (path "/25f0b93d-04b7-4f4a-9ab9-040076a6e73f"
-          (reference "J4") (unit 1)
+          (reference "J1") (unit 1)
         )
       )
     )
@@ -1609,7 +1609,7 @@
       )
       (project "ESP32-WROOM-32"
         (path "/25f0b93d-04b7-4f4a-9ab9-040076a6e73f"
-          (reference "C3") (unit 1)
+          (reference "C5") (unit 1)
         )
       )
     )
@@ -1670,7 +1670,7 @@
       )
       (project "ESP32-WROOM-32"
         (path "/25f0b93d-04b7-4f4a-9ab9-040076a6e73f"
-          (reference "R5") (unit 1)
+          (reference "R2") (unit 1)
         )
       )
     )
@@ -1797,7 +1797,7 @@
       )
       (project "ESP32-WROOM-32"
         (path "/25f0b93d-04b7-4f4a-9ab9-040076a6e73f"
-          (reference "R2") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -1890,7 +1890,7 @@
       )
       (project "ESP32-WROOM-32"
         (path "/25f0b93d-04b7-4f4a-9ab9-040076a6e73f"
-          (reference "R1") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -1952,7 +1952,7 @@
       )
       (project "ESP32-WROOM-32"
         (path "/25f0b93d-04b7-4f4a-9ab9-040076a6e73f"
-          (reference "R4") (unit 1)
+          (reference "R1") (unit 1)
         )
       )
     )
@@ -2073,7 +2073,7 @@
       )
       (project "ESP32-WROOM-32"
         (path "/25f0b93d-04b7-4f4a-9ab9-040076a6e73f"
-          (reference "C2") (unit 1)
+          (reference "C3") (unit 1)
         )
       )
     )
@@ -2108,7 +2108,7 @@
       )
       (project "ESP32-WROOM-32"
         (path "/25f0b93d-04b7-4f4a-9ab9-040076a6e73f"
-          (reference "J1") (unit 1)
+          (reference "J2") (unit 1)
         )
       )
     )
@@ -2207,7 +2207,7 @@
   (symbol (lib_id "RF_Module:ESP32-WROOM-32D") (at 59.69 143.51 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 693253c2-e56f-4efb-8df6-20a1612e253a)
-    (property "Reference" "U3" (at 61.6459 106.68 0)
+    (property "Reference" "U1" (at 61.6459 106.68 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "ESP32-WROOM-32D" (at 61.6459 109.22 0)
@@ -2261,7 +2261,7 @@
     (instances
       (project "ESP32-WROOM-32"
         (path "/25f0b93d-04b7-4f4a-9ab9-040076a6e73f"
-          (reference "U3") (unit 1)
+          (reference "U1") (unit 1)
         )
       )
     )
@@ -2505,7 +2505,7 @@
       )
       (project "ESP32-WROOM-32"
         (path "/25f0b93d-04b7-4f4a-9ab9-040076a6e73f"
-          (reference "C5") (unit 1)
+          (reference "C2") (unit 1)
         )
       )
     )
@@ -2723,7 +2723,7 @@
       )
       (project "ESP32-WROOM-32"
         (path "/25f0b93d-04b7-4f4a-9ab9-040076a6e73f"
-          (reference "D5") (unit 1)
+          (reference "D2") (unit 1)
         )
       )
     )
@@ -2784,7 +2784,7 @@
       )
       (project "ESP32-WROOM-32"
         (path "/25f0b93d-04b7-4f4a-9ab9-040076a6e73f"
-          (reference "C6") (unit 1)
+          (reference "C1") (unit 1)
         )
       )
     )
