@@ -1877,7 +1877,7 @@
   (symbol (lib_id "Device:R") (at 67.31 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0642fd12-3a7a-467b-9aee-d9bc701779e6)
-    (property "Reference" "R3" (at 69.85 69.8499 0)
+    (property "Reference" "R4" (at 69.85 69.8499 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "5.1k" (at 69.85 72.3899 0)
@@ -1894,7 +1894,7 @@
     (instances
       (project "ESP32-S3-WROOM-1"
         (path "/1f0126c3-e865-4b7c-bf68-4d53d0d38c5a"
-          (reference "R3") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -1903,10 +1903,10 @@
   (symbol (lib_id "Device:C") (at 167.64 152.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0ba38da3-bc53-46e5-8d3d-80dde1c4b448)
-    (property "Reference" "C1" (at 171.45 151.1299 0)
+    (property "Reference" "C3" (at 171.45 151.1299 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "100n" (at 171.45 153.6699 0)
+    (property "Value" "1u" (at 171.45 153.6699 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "esp32-dev-boards:Capacitor_0805_2012" (at 168.6052 156.21 0)
@@ -1920,7 +1920,7 @@
     (instances
       (project "ESP32-S3-WROOM-1"
         (path "/1f0126c3-e865-4b7c-bf68-4d53d0d38c5a"
-          (reference "C1") (unit 1)
+          (reference "C3") (unit 1)
         )
       )
     )
@@ -2360,7 +2360,7 @@
   (symbol (lib_id "Device:R") (at 77.47 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a4666104-15ef-4897-9b1c-819aec9eb00d)
-    (property "Reference" "R4" (at 80.01 69.8499 0)
+    (property "Reference" "R3" (at 80.01 69.8499 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "5.1k" (at 80.01 72.3899 0)
@@ -2377,7 +2377,7 @@
     (instances
       (project "ESP32-S3-WROOM-1"
         (path "/1f0126c3-e865-4b7c-bf68-4d53d0d38c5a"
-          (reference "R4") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
     )
@@ -2386,7 +2386,7 @@
   (symbol (lib_id "Device:C") (at 218.44 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a79ce51b-1c51-458b-929b-aca8897d5bc1)
-    (property "Reference" "C3" (at 222.25 107.9499 0)
+    (property "Reference" "C1" (at 222.25 107.9499 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 222.25 110.4899 0)
@@ -2403,7 +2403,7 @@
     (instances
       (project "ESP32-S3-WROOM-1"
         (path "/1f0126c3-e865-4b7c-bf68-4d53d0d38c5a"
-          (reference "C3") (unit 1)
+          (reference "C1") (unit 1)
         )
       )
     )
@@ -2778,7 +2778,7 @@
   (symbol (lib_id "Device:C") (at 189.23 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d55141cb-b6dd-48ab-bac3-8b80b5a5e6fc)
-    (property "Reference" "C6" (at 193.04 107.9499 0)
+    (property "Reference" "C4" (at 193.04 107.9499 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 193.04 110.4899 0)
@@ -2795,7 +2795,7 @@
     (instances
       (project "ESP32-S3-WROOM-1"
         (path "/1f0126c3-e865-4b7c-bf68-4d53d0d38c5a"
-          (reference "C6") (unit 1)
+          (reference "C4") (unit 1)
         )
       )
     )
