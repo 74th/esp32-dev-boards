@@ -659,7 +659,7 @@
     (property "Reference" "R3" (at 149.86 67.945 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "4.3k" (at 149.86 70.485 0)
+    (property "Value" "4.7k" (at 149.86 70.485 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "$74th:Register_0603_1608" (at 145.542 68.58 90)
