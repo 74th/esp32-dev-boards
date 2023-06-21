@@ -1,6 +1,9 @@
 # ESP32-S3 Dev Board
 
-![](ESP32-S3-dev-board-v1.1.1.jpg)
+<img src="ESP32-S3-WROOM-1-v1.2.0-photo1.jpeg" width="24%"/>
+<img src="ESP32-S3-WROOM-1-v1.2.0-photo2.jpeg" width="24%"/>
+<img src="ESP32-S3-WROOM-1-v1.2.0-photo3.jpeg" width="24%"/>
+<img src="ESP32-S3-WROOM-1-v1.2.0-photo4.jpeg" width="24%"/>
 
 ESP32-S3-WROOM-1 を使った開発ボード。
 
@@ -18,11 +21,41 @@ https://74th.booth.pm/items/4179263
 - MicroUSB ではなく USB Type-C で使いたいから。
 - USB シリアル変換 IC が別になっている方が、ボード単体で使う時に消費電力が下がるから。
 
+## v1.2.0
+
+ピンヘッダのアサインは ESP32-S3-DevKitC v1.1 互換のため、こちらを確認下さい。
+
+https://docs.espressif.com/projects/esp-idf/en/v4.4.2/esp32s3/hw-reference/esp32s3/user-guide-devkitc-1.html#header-block
+
+- [semantics 回路図](ESP32-S3-WROOM-1-v1.2.0-semantics.pdf)
+- [pcb](ESP32-S3-WROOM-1-v1.2.0-pcb.pdf)
+
+### parts list 部品表
+
+| id       | parts name                              | number |
+| -------- | --------------------------------------- | ------ |
+| J4       | USB 2.0 Type-C Socket                   | 1      |
+| R1       | 0805 Register 10k                       | 1      |
+| R2       | 0805 Register 1k                        | 1      |
+| R3,R4    | 0805 Register 5.1k                      | 2      |
+| C1,C5    | 0805 Capacitor 10u                      | 2      |
+| C2,C4    | 0805 Capacitor 100n                     | 2      |
+| C3       | 0805 Capacitor 1u                       | 1      |
+| D1       | 0805 LED Blue                           | 1      |
+| U2       | SOT-223 3.3V Regulator AMS1117-3.3      | 1      |
+| D2       | SMA Schottky Barrier Diode SR240        | 1      |
+| U1       | ESP32-S3-WROOM-1                        | 1      |
+| SW1, SW2 | SKRPABE010 Compatible push button       | 2      |
+| J3       | ESP-Prog UART Compatible Box Pin Header | 1      |
+
 ## v1.1.1
 
 ピンヘッダのアサインは ESP32-S3-DevKitC v1.1 互換のため、こちらを確認下さい。
 
 https://docs.espressif.com/projects/esp-idf/en/v4.4.2/esp32s3/hw-reference/esp32s3/user-guide-devkitc-1.html#header-block
+
+- [semantics 回路図](ESP32-S3-WROOM-1-v1.1.1-semantics.pdf)
+- [pcb](ESP32-S3-WROOM-1-v1.1.1-pcb.pdf)
 
 ### 部品表
 
