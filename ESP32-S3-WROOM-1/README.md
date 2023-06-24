@@ -1,9 +1,6 @@
 # ESP32-S3 Dev Board
 
-<img src="ESP32-S3-WROOM-1-v1.2.0-photo1.jpeg" width="24%"/>
-<img src="ESP32-S3-WROOM-1-v1.2.0-photo2.jpeg" width="24%"/>
-<img src="ESP32-S3-WROOM-1-v1.2.0-photo3.jpeg" width="24%"/>
-<img src="ESP32-S3-WROOM-1-v1.2.0-photo4.jpeg" width="24%"/>
+<img src="ESP32-S3-WROOM-1-v1.2.0-photo1.jpeg" width="24%"/><img src="ESP32-S3-WROOM-1-v1.2.0-photo2.jpeg" width="24%"/><img src="ESP32-S3-WROOM-1-v1.2.0-photo3.jpeg" width="24%"/><img src="ESP32-S3-WROOM-1-v1.2.0-photo4.jpeg" width="24%"/>
 
 ESP32-S3-WROOM-1 を使った開発ボード。
 

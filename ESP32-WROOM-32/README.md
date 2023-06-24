@@ -3,9 +3,7 @@
 - やっぱり S3，C3 でもない素の ESP32 じゃないと動かないことが多いので、ESP32 を使いたい
 - ProMicro のピン配置がわかりやすい
 
-<img src="ESP32-WROOM-32-v1.0.0-photo1.jpg" width="33%" />
-<img src="ESP32-WROOM-32-v1.0.0-photo2.jpg" width="33%" />
-<img src="ESP32-WROOM-32-v1.0.0-photo3.jpg" width="33%" />
+<img src="ESP32-WROOM-32-v1.0.0-photo1.jpg" width="33%" /><img src="ESP32-WROOM-32-v1.0.0-photo2.jpg" width="33%" /><img src="ESP32-WROOM-32-v1.0.0-photo3.jpg" width="33%" />
 
 ## v1.0.0
 
