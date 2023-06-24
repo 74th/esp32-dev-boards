@@ -43,7 +43,7 @@ https://docs.espressif.com/projects/esp-idf/en/v4.4.2/esp32s3/hw-reference/esp32
 | C3       | 0805 Capacitor 1u                       | 1      |
 | D1       | 0805 LED Blue                           | 1      |
 | U2       | SOT-223 3.3V Regulator AMS1117-3.3      | 1      |
-| D2       | SMA Schottky Barrier Diode SR240        | 1      |
+| D2       | SOD-123W Shottkey Barrier Diode 340mV@1A        | 1      |
 | U1       | ESP32-S3-WROOM-1                        | 1      |
 | SW1, SW2 | SKRPABE010 Compatible push button       | 2      |
 | J3       | ESP-Prog UART Compatible Box Pin Header | 1      |
