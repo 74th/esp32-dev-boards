@@ -24,26 +24,26 @@ https://74th.booth.pm/items/4179263
 
 https://docs.espressif.com/projects/esp-idf/en/v4.4.2/esp32s3/hw-reference/esp32s3/user-guide-devkitc-1.html#header-block
 
-- [semantics 回路図](ESP32-S3-WROOM-1-v1.2.0-semantics.pdf)
-- [pcb](ESP32-S3-WROOM-1-v1.2.0-pcb.pdf)
+- semantics 回路図 [pdf](ESP32-S3-WROOM-1-v1.2.0-semantics.pdf) [kicanvas](https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2F74th%2Fesp32-dev-boards%2Fblob%2Fesp32-s3-devboard%2Fv1.2.0%2FESP32-S3-WROOM-1%2FESP32-S3-WROOM-1.kicad_sch)
+- PCB [pdf](ESP32-S3-WROOM-1-v1.2.0-pcb.pdf) [kicanvas](https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2F74th%2Fesp32-dev-boards%2Fblob%2Fesp32-s3-devboard%2Fv1.2.0%2FESP32-S3-WROOM-1%2FESP32-S3-WROOM-1.kicad_pcb)
 
 ### parts list 部品表
 
-| id       | parts name                              | number |
-| -------- | --------------------------------------- | ------ |
-| J4       | USB 2.0 Type-C Socket                   | 1      |
-| R1       | 0805 Register 10k                       | 1      |
-| R2       | 0805 Register 1k                        | 1      |
-| R3,R4    | 0805 Register 5.1k                      | 2      |
-| C1,C5    | 0805 Capacitor 10u                      | 2      |
-| C2,C4    | 0805 Capacitor 100n                     | 2      |
-| C3       | 0805 Capacitor 1u                       | 1      |
-| D1       | 0805 LED Blue                           | 1      |
-| U2       | SOT-223 3.3V Regulator AMS1117-3.3      | 1      |
-| D2       | SOD-123W Shottkey Barrier Diode 340mV@1A        | 1      |
-| U1       | ESP32-S3-WROOM-1                        | 1      |
-| SW1, SW2 | SKRPABE010 Compatible push button       | 2      |
-| J3       | ESP-Prog UART Compatible Box Pin Header | 1      |
+| id       | parts name                               | number |
+| -------- | ---------------------------------------- | ------ |
+| J4       | USB 2.0 Type-C Socket                    | 1      |
+| R1       | 0805 Register 10k                        | 1      |
+| R2       | 0805 Register 1k                         | 1      |
+| R3,R4    | 0805 Register 5.1k                       | 2      |
+| C1,C5    | 0805 Capacitor 10u                       | 2      |
+| C2,C4    | 0805 Capacitor 100n                      | 2      |
+| C3       | 0805 Capacitor 1u                        | 1      |
+| D1       | 0805 LED Blue                            | 1      |
+| U2       | SOT-223 3.3V Regulator AMS1117-3.3       | 1      |
+| D2       | SOD-123W Shottkey Barrier Diode 340mV@1A | 1      |
+| U1       | ESP32-S3-WROOM-1                         | 1      |
+| SW1, SW2 | SKRPABE010 Compatible push button        | 2      |
+| J3       | ESP-Prog UART Compatible Box Pin Header  | 1      |
 
 ## v1.1.1
 
@@ -51,8 +51,8 @@ https://docs.espressif.com/projects/esp-idf/en/v4.4.2/esp32s3/hw-reference/esp32
 
 https://docs.espressif.com/projects/esp-idf/en/v4.4.2/esp32s3/hw-reference/esp32s3/user-guide-devkitc-1.html#header-block
 
-- [semantics 回路図](ESP32-S3-WROOM-1-v1.1.1-semantics.pdf)
-- [pcb](ESP32-S3-WROOM-1-v1.1.1-pcb.pdf)
+- [semantics 回路図](ESP32-S3-WROOM-1-v1.1.1-semantics.pdf) [kicanvas](https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2F74th%2Fesp32-dev-boards%2Fblob%2Fesp32-s3-devboard%2Fv1.1.1%2FESP32-S3-WROOM-1%2FESP32-S3-WROOM-1.kicad_sch)
+- [pcb](ESP32-S3-WROOM-1-v1.1.1-pcb.pdf) [kicanvas](https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2F74th%2Fesp32-dev-boards%2Fblob%2Fesp32-s3-devboard%2Fv1.1.1%2FESP32-S3-WROOM-1%2FESP32-S3-WROOM-1.kicad_pcb)
 
 ### 部品表
 

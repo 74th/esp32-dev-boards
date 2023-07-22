@@ -7,8 +7,8 @@
 
 ## v1.0.0
 
-- [semantics 回路図](ESP32-WROOM-32-v1.0.0-pcb.pdf)
-- [pcb](ESP32-WROOM-32-v1.0.0-semantics.pdf)
+- semantics 回路図 [pdf](ESP32-WROOM-32-v1.0.0-pcb.pdf) [kicanvas](https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2F74th%2Fesp32-dev-boards%2Fblob%2Fesp32-wroom-32%2Fv1.0.0%2FESP32-WROOM-32%2FESP32-WROOM-32.kicad_sch)
+- PCB [pdf](ESP32-WROOM-32-v1.0.0-semantics.pdf) [kicanvas](https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2F74th%2Fesp32-dev-boards%2Fblob%2Fesp32-wroom-32%2Fv1.0.0%2FESP32-WROOM-32%2FESP32-WROOM-32.kicad_pcb)
 
 ### Parts List 部品リスト
 

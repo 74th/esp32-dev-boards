@@ -4,6 +4,9 @@ ESP32-C3-MINI-1 を使った開発ボード
 
 ## v1.2.0
 
+- 回路図 Semantics [pdf](ESP32-C3-MINI-1-dev-board-semantics.pdf) [kicanvas](https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2F74th%2Fesp32-dev-boards%2Fblob%2Fesp32c3micro%2Fv1.2.0%2FESP32-C3-MINI-1%2FESP32-C3-MINI-1-panelized.kicad_sch)
+- PCB [pdf](ESP32-C3-MINI-1-dev-board-pcb.pdf) [kicanvas](https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2F74th%2Fesp32-dev-boards%2Fblob%2Fesp32c3micro%2Fv1.2.0%2FESP32-C3-MINI-1%2FESP32-C3-MINI-1-panelized.kicad_pcb)
+
 ### 部品表
 
 BoxPinHeader は ESP-Prog の UART と接続できます。

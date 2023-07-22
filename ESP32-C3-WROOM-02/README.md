@@ -14,6 +14,9 @@ https://74th.booth.pm/items/4378573
 
 ## v1.1.0
 
+- 回路図 [pdf](esp32c3devboard-1.1.0-semantics.pdf) [kicanvas](https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2F74th%2Fesp32-dev-boards%2Fblob%2Fesp3s-c3-devboard%2Fv1.1.0%2FESP32-C3-WROOM-02%2FESP32-C3-WROOM-02.kicad_sch)
+- PCB [pdf](esp32c3devboard-1.1.0-pcb.pdf) [kicanvas](https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2F74th%2Fesp32-dev-boards%2Fblob%2Fesp3s-c3-devboard%2Fv1.1.0%2FESP32-C3-WROOM-02%2FESP32-C3-WROOM-02.kicad_pcb)
+
 ### 部品表
 
 | 指定子    | 名称                                      | 数量 |
@@ -33,8 +36,3 @@ https://74th.booth.pm/items/4378573
 | SW1(BOOT) | プッシュスイッチ SKRPABE010(BOOT)         | 1    |
 
 - ESP32-C3-WROOM-02 は非常に熱に弱いモジュールです。ボード裏面にはサーマルパッドをはんだづけするための穴が空いていますが、熱を与えすぎに注意してください。BOOTH のキットでは熱伝導テープを添付しています。カットして、モジュールに貼り付けて、青いテープ、透明テープを剥がして利用ください。モジュールが浮きすぎないように押さえつけて利用ください。
-
-## ドキュメント
-
-- [回路図 ./esp32c3devboard-1.1.0-semantics.pdf](esp32c3devboard-1.1.0-semantics.pdf)
-- [PCB ./esp32c3devboard-1.1.0-pcb.pdf](esp32c3devboard-1.1.0-pcb.pdf)
