@@ -5590,7 +5590,7 @@
 				)
 			)
 		)
-		(property "Value" "27"
+		(property "Value" "10"
 			(at 111.76 53.34 90)
 			(effects
 				(font
@@ -6428,7 +6428,7 @@
 				)
 			)
 		)
-		(property "Value" "27"
+		(property "Value" "10"
 			(at 111.76 63.5 90)
 			(effects
 				(font
