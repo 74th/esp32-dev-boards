@@ -6335,7 +6335,7 @@
 				)
 			)
 		)
-		(property "Value" "27"
+		(property "Value" "10"
 			(at 147.828 58.42 90)
 			(effects
 				(font
@@ -6949,7 +6949,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "74th:Crystal_SMD_2012-2Pin_2.0x1.2mm_HandSoldering"
+		(property "Footprint" "74th:Crystal_SMD_3215-2Pin_3.2x1.5mm"
 			(at 45.72 130.81 0)
 			(effects
 				(font
@@ -7390,7 +7390,7 @@
 				)
 			)
 		)
-		(property "Value" "10p"
+		(property "Value" "12p"
 			(at 35.56 119.38 90)
 			(effects
 				(font
@@ -7524,7 +7524,7 @@
 				)
 			)
 		)
-		(property "Value" "10p"
+		(property "Value" "12p"
 			(at 35.56 132.08 90)
 			(effects
 				(font
@@ -7793,7 +7793,7 @@
 				)
 			)
 		)
-		(property "Value" "27"
+		(property "Value" "10"
 			(at 148.082 64.77 90)
 			(effects
 				(font
