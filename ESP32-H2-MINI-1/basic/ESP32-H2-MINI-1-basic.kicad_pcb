@@ -9,7 +9,7 @@
 	(paper "A4")
 	(title_block
 		(title "ESP32-H2-MINI-1 DevBoard")
-		(rev "v1.0.0")
+		(rev "v1.0.1")
 		(company "Atsushi Morimoto (@74th)")
 	)
 	(layers
@@ -7455,7 +7455,7 @@
 		(descr "SMD Crystal FC-135 https://support.epson.biz/td/api/doc_check.php?dl=brief_FC-135R_en.pdf")
 		(tags "SMD SMT Crystal")
 		(property "Reference" "Y1"
-			(at -3.3796 0.5334 360)
+			(at -3.3796 0.5334 0)
 			(layer "B.SilkS")
 			(uuid "bfda3d6d-f544-4849-a38b-b9c71e6db764")
 			(effects
@@ -7467,7 +7467,7 @@
 			)
 		)
 		(property "Value" "32k"
-			(at 0 -2 360)
+			(at 0 -2 0)
 			(layer "B.Fab")
 			(uuid "aa4ae88c-9827-419e-b979-ab87aca40eec")
 			(effects
@@ -7623,7 +7623,7 @@
 			(uuid "dfe2e107-92c3-47a9-bcf8-275d8a0b7bc3")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 2 360)
+			(at 0 2 0)
 			(layer "B.Fab")
 			(uuid "964b45da-7af1-4d00-b260-a8f1720b480e")
 			(effects

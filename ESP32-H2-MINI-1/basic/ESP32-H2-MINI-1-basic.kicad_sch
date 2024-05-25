@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "ESP32-H2-MINI-1 DevBoard")
-		(rev "v1.0.0")
+		(rev "v1.0.1")
 		(company "Atsushi Morimoto (@74th)")
 	)
 	(lib_symbols
