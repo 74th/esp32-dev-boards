@@ -27,3 +27,4 @@ order
 fp-lib-table
 *-backups
 logs
+*.lck
