@@ -21,7 +21,7 @@ BoxPinHeader は ESP-Prog の UART と接続できます。
 | D2          | Schottky barrier diode SOD-123W PMEG2010ER,115 | 1        |
 | J1          | Box Pin Header 2x3 Pitch 1.27mm                | 1        |
 | J2          | USB Type-C Receptacle                          | 1        |
-| R1,R2       | Register 0603 27Ω                              | 2        |
+| R1,R2       | Register 0603 10Ω                              | 2        |
 | R3,R4,R5,R6 | Register 0603 10kΩ                             | 4        |
 | R7,R8       | Register 0603 5.1kΩ                            | 2        |
 | SW1,SW2     | Button SKRPABE010                              | 2        |
