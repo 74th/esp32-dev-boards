@@ -5663,7 +5663,7 @@
 		(descr "Nexperia CFP3 (SOD-123W), https://assets.nexperia.com/documents/outline-drawing/SOD123W.pdf")
 		(tags "CFP3 SOD-123W")
 		(property "Reference" "D2"
-			(at 2.794 0.127 0)
+			(at 2.54 1.27 0)
 			(layer "B.SilkS")
 			(uuid "cc0375ac-1925-4615-b9bc-520be7db05ad")
 			(effects
@@ -8125,7 +8125,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C4"
-			(at -0.8355 1.397 0)
+			(at -0.8355 1.778 0)
 			(layer "B.SilkS")
 			(uuid "3fd074c8-2d2c-46c6-a1d2-fa7f238f280a")
 			(effects
