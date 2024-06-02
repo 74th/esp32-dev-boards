@@ -6,10 +6,12 @@ ESP32-C6-WROOM-1 を使った開発ボード
 - ESP-Prog の USB シリアル変換のボックスピンヘッダを持つ
 - USB Type-C をもつ
 
-<!--
 BOOTH でモジュール付きキットを販売中です。<br/>
 https://74th.booth.pm/items/5777580
--->
+
+<img src="./photo1.jpg" width="30%" />
+<img src="./photo2.jpg" width="30%" />
+<img src="./photo3.jpg" width="30%" />
 
 ## v1.0.0
 
