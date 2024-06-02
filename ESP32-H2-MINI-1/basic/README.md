@@ -4,9 +4,7 @@ ESP32-H2-MINI-1 を使った開発ボード
 
 BoxPinHeader は ESP-Prog の UART と接続できます。
 
-<img src="./photo1.jpg" width="30%" />
-<img src="./photo2.jpg" width="30%" />
-<img src="./photo3.jpg" width="30%" />
+<img src="./photo1.jpg" width="30%" /> <img src="./photo2.jpg" width="30%" /> <img src="./photo3.jpg" width="30%" />
 
 ## v1.0.1
 
