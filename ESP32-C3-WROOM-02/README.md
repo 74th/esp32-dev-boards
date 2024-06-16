@@ -2,7 +2,7 @@
 
 ESP32-C3-WROOM-02 を使った開発ボード
 
-<img src="./esp32c3wroom02-board.jpg" width="30%"><img src="./pcb.jpg" width="49%">
+<img src="./esp32c3devboard-1.2.0-1.jpg" width="30%"/><img src="./esp32c3devboard-1.2.0-2.jpg" width="30%"/>
 
 - 10 ピンブレッドボードに挿しても、左右 1 ピン空いている
 - ESP-Prog の USB シリアル変換のボックスピンヘッダを持つ
@@ -48,6 +48,8 @@ https://74th.booth.pm/items/4378573
 | U2        | Regulator 3.3V SOT-223 AMS1117-3.3             | 1        |
 
 ## v1.1.0
+
+<img src="./esp32c3devboard-1.1.0.jpg" width="30%"/>
 
 - 回路図 [pdf](esp32c3devboard-1.1.0-semantics.pdf) [kicanvas](https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2F74th%2Fesp32-dev-boards%2Fblob%2Fesp3s-c3-devboard%2Fv1.1.0%2FESP32-C3-WROOM-02%2FESP32-C3-WROOM-02.kicad_sch)
 - PCB [pdf](esp32c3devboard-1.1.0-pcb.pdf) [kicanvas](https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2F74th%2Fesp32-dev-boards%2Fblob%2Fesp3s-c3-devboard%2Fv1.1.0%2FESP32-C3-WROOM-02%2FESP32-C3-WROOM-02.kicad_pcb)
