@@ -1,5 +1,2 @@
-*.bin
-*.elf
-*.hex
 *.map
 *.lst
