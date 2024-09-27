@@ -12,6 +12,8 @@
 #define BOOT_PIN GPIOv_from_PORT_PIN(GPIO_port_C, 2)
 #define SW_PIN GPIOv_from_PORT_PIN(GPIO_port_C, 4)
 
+#define ENABLE_DEBUGGING 0
+
 bool enable_led = false;
 
 void setup()
@@ -28,6 +30,7 @@ void setup()
 
 	Delay_Ms(1);
 
+#if !ENABLE_DEBUGGING
 	if (GPIO_digitalRead(SW_PIN) == high)
 	{
 		enable_led = true;
@@ -35,6 +38,7 @@ void setup()
 		Delay_Ms(1);
 		GPIO_digitalWrite_1(LED_PIN);
 	}
+#endif ENABLE_DEBUGGING
 }
 
 uint32_t current_tick_us()
@@ -69,7 +73,7 @@ void shift_download_boot()
 	}
 }
 
-main_loop()
+void main_loop()
 {
 	uint32_t before_log_us = current_tick_us();
 	bool before_dtr = GPIO_digitalRead(DTR_PIN);
@@ -89,12 +93,16 @@ main_loop()
 
 		if (dtr == low && before_dtr == high)
 		{
+#if ENABLE_DEBUGGING
 			printf("[%012d] shift boot\n", now_us);
+#endif
 			shift_download_boot();
 		}
 		if (sw == high && before_sw == low)
 		{
+#if ENABLE_DEBUGGING
 			printf("[%012d] shift boot\n", now_us);
+#endif
 			shift_download_boot();
 		}
 
@@ -104,9 +112,11 @@ main_loop()
 		if (now_us - before_log_us > 1000000)
 		{
 			before_log_us = now_us;
+#if ENABLE_DEBUGGING == 1
 			printf("[%012d]", now_us);
 			printf("DTR:%d, ", dtr);
 			printf("SW:%d\n", sw);
+#endif
 		}
 	}
 }
