@@ -23,10 +23,10 @@ void setup()
 	GPIO_port_enable(GPIO_port_D);
 
 	GPIO_pinMode(DTR_PIN, GPIO_pinMode_I_floating, GPIO_Speed_10MHz);
-	GPIO_pinMode(RTS_PIN, GPIO_pinMode_I_floating, GPIO_Speed_10MHz);
+	GPIO_pinMode(RTS_PIN, GPIO_pinMode_I_pullUp, GPIO_Speed_10MHz);
 	GPIO_pinMode(SW_PIN, GPIO_pinMode_I_pullUp, GPIO_Speed_10MHz);
-	GPIO_pinMode(EN_PIN, GPIO_pinMode_I_floating, GPIO_Speed_10MHz);
-	GPIO_pinMode(BOOT_PIN, GPIO_pinMode_I_floating, GPIO_Speed_10MHz);
+	GPIO_pinMode(EN_PIN, GPIO_pinMode_O_pushPull, GPIO_Speed_10MHz);
+	GPIO_pinMode(BOOT_PIN, GPIO_pinMode_O_pushPull, GPIO_Speed_10MHz);
 
 	Delay_Ms(1);
 
@@ -64,8 +64,6 @@ void shift_download_boot()
 	Delay_Ms(100);
 	GPIO_digitalWrite_1(BOOT_PIN);
 	Delay_Ms(100);
-	GPIO_pinMode(EN_PIN, GPIO_pinMode_I_floating, GPIO_Speed_10MHz);
-	GPIO_pinMode(BOOT_PIN, GPIO_pinMode_I_floating, GPIO_Speed_10MHz);
 
 	if (enable_led)
 	{
@@ -73,10 +71,21 @@ void shift_download_boot()
 	}
 }
 
+void send_reset()
+{
+	GPIO_pinMode(EN_PIN, GPIO_pinMode_O_pushPull, GPIO_Speed_10MHz);
+	Delay_Ms(100);
+	GPIO_digitalWrite_0(EN_PIN);
+	Delay_Ms(100);
+	GPIO_digitalWrite_1(EN_PIN);
+	Delay_Ms(100);
+}
+
 void main_loop()
 {
 	uint32_t before_log_us = current_tick_us();
 	bool before_dtr = GPIO_digitalRead(DTR_PIN);
+	bool before_rts = GPIO_digitalRead(RTS_PIN);
 	bool before_sw = GPIO_digitalRead(SW_PIN);
 
 	while (1)
@@ -89,6 +98,7 @@ void main_loop()
 		}
 
 		bool dtr = GPIO_digitalRead(DTR_PIN);
+		bool rts = GPIO_digitalRead(RTS_PIN);
 		bool sw = GPIO_digitalRead(SW_PIN);
 
 		if (dtr == low && before_dtr == high)
@@ -97,6 +107,12 @@ void main_loop()
 			printf("[%012d] shift boot\n", now_us);
 #endif
 			shift_download_boot();
+		}else if (rts == low && before_rts == high)
+		{
+#if ENABLE_DEBUGGING
+			printf("[%012d] detect rts\n", now_us);
+#endif
+			send_reset();
 		}
 		if (sw == high && before_sw == low)
 		{
@@ -115,8 +131,11 @@ void main_loop()
 #if ENABLE_DEBUGGING == 1
 			printf("[%012d]", now_us);
 			printf("DTR:%d, ", dtr);
+			printf("RTS:%d, ", rts);
 			printf("SW:%d\n", sw);
 #endif
+			GPIO_digitalWrite_1(EN_PIN);
+			GPIO_digitalWrite_1(BOOT_PIN);
 		}
 	}
 }
