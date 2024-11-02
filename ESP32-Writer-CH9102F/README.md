@@ -20,11 +20,15 @@
 - ESP-Prog 互換ESP32書き込み用1.24mm 2x3ボックスピンヘッダ搭載
 - はんだジャンパで、ESP-Prog互換ポートの電源電圧を、3.3Vまたは5Vに切り替え可能
 
+## ESP-Prog Port Pinout / ESP-Progポートピンアサイン
+
+<img src="./ESPProg_port_pinout.drawio.svg" width="50%"/>
+
 ## Mechanism for automatic download control / 自動ダウンロード制御の仕組み
 
 The MCU reads the DTR and RTS pins of the CH9102F's UART and performs the following operations
 
-- 1. DTR is operated from H to L (enters download boot)
+- (1) DTR is operated from H to L (enters download boot)
   - BOOT pin: 0
   - Wait 100ms
   - EN pin: 0
@@ -32,12 +36,12 @@ The MCU reads the DTR and RTS pins of the CH9102F's UART and performs the follow
   - EN pin: 1
   - 100-ms wait
   - BOOT pin: 1
-- 2. RTS is operated from H to L (to reset)
+- (2) RTS is operated from H to L (to reset)
   - EN pin: 0
   - 100ms wait
   - EN pin: 1
 
-Using esptool.py, the device automatically enters download boot with operation 1. and is reset with operation 2. after writing.
+Using esptool.py, the device automatically enters download boot with operation (1) and is reset with operation (2) after writing.
 
 Translated with DeepL.com (free version)
 
@@ -45,7 +49,7 @@ Translated with DeepL.com (free version)
 
 CH9102FのUARTのDTR、RTSピンをMCUで読み取り、以下の操作をします。
 
-- 1.DTRがH→Lに操作された（ダウンロードブートに入る）
+- (1) DTRがH→Lに操作された（ダウンロードブートに入る）
   - BOOTピン: 0
   - 100ms待機
   - ENピン: 0
@@ -53,12 +57,12 @@ CH9102FのUARTのDTR、RTSピンをMCUで読み取り、以下の操作をしま
   - ENピン: 1
   - 100ms待機
   - BOOTピン: 1
-- 2.RTSがH→Lに操作された（リセットする）
+- (2) RTSがH→Lに操作された（リセットする）
   - ENピン: 0
   - 100ms待機
   - ENピン: 1
 
-esptool.pyを使うと、1.の動作で自動的にダウンロードブートに入り、書き込み後2.の動作でリセットされます。
+esptool.pyを使うと、(1)の動作で自動的にダウンロードブートに入り、書き込み後(2)の動作でリセットされます。
 
 ## Caution / 注意
 
