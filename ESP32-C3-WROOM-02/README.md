@@ -11,14 +11,26 @@ ESP32-C3-WROOM-02 を使った開発ボード
 BOOTH でモジュール付きキットを販売中です。<br/>
 https://74th.booth.pm/items/4378573
 
+同じピン配置の以下のモジュールでも利用可能です。
+
+- ESP8684-WROOM-02C
+
 ## v1.2.1
 
 こちらのバージョンは発売していません。
 
-## 変更点
+### 変更点
 
 - GPIO20、GPIO21のUARTのU0RXD/U0TXDのシルクが逆になっていたのを修正
 
+### ドキュメント
+
+- 回路図 [kicanvas](https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2F74th%2Fesp32-dev-boards%2Fblob%2Fesp3s-c3-devboard%2Fv1.2.1%2FESP32-C3-WROOM-02%2FESP32-C3-WROOM-02.kicad_sch)
+- PCB [kicanvas](https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2F74th%2Fesp32-dev-boards%2Fblob%2Fesp3s-c3-devboard%2Fv1.2.1%2FESP32-C3-WROOM-02%2FESP32-C3-WROOM-02.kicad_pcb)
+
+### ピンマップ、部品表
+
+v1.2.0 と同じです。そちらを参照ください。
 
 ## v1.2.0
 
